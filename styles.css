@@ -85,6 +85,7 @@ dd a { color: var(--accent); }
   .container { width: min(100% - 24px, 1120px); }
   .skill-grid, .projects { grid-template-columns: 1fr; }
   h1 { font-size: 3.25rem; }
-  .button.small { display: none; }
+  .nav-wrap { justify-content: space-between; gap: 12px; }
+  .button.small { display: inline-flex; padding: 8px 12px; font-size: .82rem; white-space: nowrap; }
   .footer-wrap { flex-direction: column; gap: 4px; }
 }
